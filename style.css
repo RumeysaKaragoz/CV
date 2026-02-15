@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f9;
+  color: #2c2c2c;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+main, header, footer {
+  max-width: 850px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px 40px;
+}
+
+
+header {
+  border-radius: 12px 12px 0 0;
+}
+
+header table {
+  width: 100%;
+}
+
+header img {
+  border-radius: 8px;
+  object-fit: cover;
+  border: 3px solid #e0e6ed;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1f2d3d;
+  margin-left: 15px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #e6e9ef;
+  margin: 20px 0;
+}
+
+/* Bölümler */
+section {
+  margin-bottom: 35px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4a63e7;
+  margin-bottom: 10px;
+  border-left: 4px solid #4a63e7;
+  padding-left: 8px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+ul, ol {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Sertifika açıklamaları */
+dl {
+  margin-top: 10px;
+}
+
+dt {
+  margin-top: 10px;
+  color: #1f2d3d;
+}
+
+dd {
+  margin-left: 15px;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+/* Linkler */
+a {
+  text-decoration: none;
+  color: #4a63e7;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #2e43b7;
+  text-decoration: underline;
+}
+
+
+footer {
+  border-radius: 0 0 12px 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  main, header, footer {
+    padding: 20px;
+  }
+
+  header table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 10px 0 0 0;
+  }
+}
